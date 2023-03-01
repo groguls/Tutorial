@@ -1,0 +1,19 @@
+[data-color] {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  background-color: #008;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+[data-color="rgba"]:hover {
+  background-color: rgba(0, 0, 136, 0.5);
+}
+
+[data-color="hsla"]:hover {
+  background-color: hsla(240, 100%, 27%, 0.5);
+}
+
+[data-color="hexa"]:hover {
+  background-color: #00008a80;
+}
